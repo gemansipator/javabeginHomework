@@ -1,4 +1,4 @@
-package site.javadev.training.fastjava2.shop.bank;
+package site.javadev.training.fastjava2.shop.service;
 
 public class Banker {
     private String name;
