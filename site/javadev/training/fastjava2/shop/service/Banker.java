@@ -1,11 +1,12 @@
 package site.javadev.training.fastjava2.shop.service;
 
-public class Banker {
-    private String name;
-    private int experience;   //стаж работы (дословно ОПЫТ)
-    private String bank;
+import site.javadev.training.fastjava2.shop.bank.BaseBank;
 
-    public void sendRequest(){
+public class Banker extends BaseEmployee{
+
+    private BaseBank bank;  //принадлежность к банку. В эту переменную можем запихнуть любой объект дочернего банка
+
+    public void sendRequest(){    //отправляет запрос
 
     }
 }
