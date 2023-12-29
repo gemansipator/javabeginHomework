@@ -1,12 +1,18 @@
 package site.javadev.training.fastjava2.shop.client;
 
-public class VipVisitor {
-    private String name;
+public class VipVisitor extends BaseVisitor {
+    //private String name; не нужно дублировать переменную. Она уже есть в родительском классе Visitor
     private float discont;
+    @Override
     public void buy(){
+        if (!checkDiscount()){
+            super.buy();
+        }else {
+            //купить со скидкой
+        }
 
     }
-    public void returnGoods(){
-
+    private boolean checkDiscount(){
+        return discont > 0;
     }
 }

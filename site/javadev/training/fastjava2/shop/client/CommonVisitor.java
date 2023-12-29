@@ -1,4 +1,4 @@
 package site.javadev.training.fastjava2.shop.client;
 
-public class CommonVisitor {
+public class CommonVisitor extends BaseVisitor{
 }

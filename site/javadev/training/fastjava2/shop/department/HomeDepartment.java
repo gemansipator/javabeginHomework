@@ -1,4 +1,4 @@
 package site.javadev.training.fastjava2.shop.department;
 
-public class HomeDepartment {
+public class HomeDepartment extends BaseDepartment{
 }
