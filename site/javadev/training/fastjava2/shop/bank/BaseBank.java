@@ -1,13 +1,23 @@
 package site.javadev.training.fastjava2.shop.bank;
 
-public class BaseBank {
+import site.javadev.training.fastjava2.shop.interfaces.BankInterface;
+
+public class BaseBank implements BankInterface {
     private String name;
     private String creditDescription;
 
-    public  void checkInfo(){
+    @Override
+    public void checkInfo() {
 
     }
-    public void giveCredit(){
 
+    @Override
+    public void giveCredit() {
+
+    }
+
+    @Override
+    public String getName() {
+        return name;   // автоматически поставилось return null; но нам надо чтобы имя возвращало
     }
 }

@@ -10,3 +10,5 @@ public class BaseGoods {
     private BaseDepartment department;
     private String company;
 }
+
+
