@@ -6,6 +6,8 @@ public class BaseBank implements BankInterface {
     private String name;
     private String creditDescription;
 
+
+
     @Override
     public void checkInfo() {
 
@@ -19,5 +21,10 @@ public class BaseBank implements BankInterface {
     @Override
     public String getName() {
         return name;   // автоматически поставилось return null; но нам надо чтобы имя возвращало
+    }
+
+    @Override
+    public String getCreditDescription() {
+        return creditDescription;
     }
 }

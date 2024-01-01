@@ -11,4 +11,12 @@ public class HardDrive extends ElectronicDevice{
     public void delete(){
 
     }
+    @Override
+    public void on(){
+        //специфичное переопределенное включение жесткого диска
+    }
+    @Override
+    public void off(){
+        //специфичное переопределенное отключение жесткого диска
+    }
 }
