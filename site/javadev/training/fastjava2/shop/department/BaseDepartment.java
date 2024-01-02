@@ -8,7 +8,7 @@ import site.javadev.training.fastjava2.shop.service.BaseEmployee;
 
 import java.util.ArrayList;
 
-public class BaseDepartment implements DepartmentInterface {
+public abstract class BaseDepartment implements DepartmentInterface {
     private String name;
     private ArrayList<EmployeeInterface> employeeList;
     private ArrayList<GoodsInterface> goodsList;

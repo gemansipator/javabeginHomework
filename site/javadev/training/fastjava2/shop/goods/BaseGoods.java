@@ -3,7 +3,7 @@ package site.javadev.training.fastjava2.shop.goods;
 import site.javadev.training.fastjava2.shop.department.BaseDepartment;
 import site.javadev.training.fastjava2.shop.interfaces.GoodsInterface;
 
-public class BaseGoods implements GoodsInterface {
+public abstract class BaseGoods implements GoodsInterface {
     //свойства, которые будут иметь все товары
     private double price;
     private boolean hasGuarantee;

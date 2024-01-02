@@ -2,7 +2,13 @@ package site.javadev.training.fastjava2.shop.bank;
 
 import site.javadev.training.fastjava2.shop.interfaces.BankInterface;
 
-public class BaseBank implements BankInterface {
+public abstract class BaseBank implements BankInterface {
+
+    public BaseBank(String name, String creditDescription) {
+        this.name = name;
+        this.creditDescription = creditDescription;
+    }
+
     private String name;
     private String creditDescription;
 
