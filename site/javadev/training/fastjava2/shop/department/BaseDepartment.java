@@ -1,10 +1,8 @@
 package site.javadev.training.fastjava2.shop.department;
 
-import site.javadev.training.fastjava2.shop.goods.BaseGoods;
 import site.javadev.training.fastjava2.shop.interfaces.DepartmentInterface;
 import site.javadev.training.fastjava2.shop.interfaces.EmployeeInterface;
 import site.javadev.training.fastjava2.shop.interfaces.GoodsInterface;
-import site.javadev.training.fastjava2.shop.service.BaseEmployee;
 
 import java.util.ArrayList;
 

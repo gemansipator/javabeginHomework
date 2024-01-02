@@ -1,6 +1,6 @@
 package site.javadev.training.fastjava2.shop.service;
 
-import site.javadev.training.fastjava2.shop.bank.BaseBank;
+import site.javadev.training.fastjava2.shop.bank.AbstractBank;
 import site.javadev.training.fastjava2.shop.interfaces.BankInterface;
 
 public class Banker extends BaseEmployee{

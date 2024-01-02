@@ -1,6 +1,6 @@
 package site.javadev.training.fastjava2.shop.bank;
 
-public class VTB extends BaseBank{
+public class VTB extends AbstractBank{
     public VTB(String name, String creditDescription) {
         super(name, creditDescription);
     }
