@@ -2,7 +2,7 @@ package site.javadev.training.fastjava2.shop;
 
 import site.javadev.training.fastjava2.shop.interfaces.DepartmentInterface;
 import site.javadev.training.fastjava2.shop.interfaces.VisitorInterface;
-import site.javadev.training.fastjava2.shop.service.Administrator;
+import site.javadev.training.fastjava2.shop.staff.Administrator;
 
 import java.io.File;
 import java.util.ArrayList;

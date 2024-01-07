@@ -1,10 +1,9 @@
-package site.javadev.training.fastjava2.shop.service;
+package site.javadev.training.fastjava2.shop.staff;
 
-import site.javadev.training.fastjava2.shop.department.BaseDepartment;
 import site.javadev.training.fastjava2.shop.interfaces.DepartmentInterface;
 import site.javadev.training.fastjava2.shop.interfaces.EmployeeInterface;
 
-public abstract class BaseEmployee implements EmployeeInterface {
+public abstract class AbstractStaff implements EmployeeInterface {
     private String name;
     private DepartmentInterface department;
     private boolean free;
