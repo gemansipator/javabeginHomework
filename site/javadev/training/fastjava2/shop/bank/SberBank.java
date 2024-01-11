@@ -7,7 +7,7 @@ public class SberBank extends AbstractBank{
 
     @Override
     public void checkInfo(){
-        //доработанная реализация
+        super.checkInfo();
     }
 
     @Override

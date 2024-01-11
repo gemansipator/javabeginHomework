@@ -7,7 +7,7 @@ public class VTB extends AbstractBank{
 
     @Override
     public void checkInfo(){
-        //доработанная реализация
+        super.checkInfo();
     }
 
     @Override
