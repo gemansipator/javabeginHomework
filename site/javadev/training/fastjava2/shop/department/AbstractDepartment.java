@@ -6,7 +6,7 @@ import site.javadev.training.fastjava2.shop.interfaces.GoodsInterface;
 
 import java.util.ArrayList;
 
-public abstract class BaseDepartment implements DepartmentInterface {
+public abstract class AbstractDepartment implements DepartmentInterface {
     private String name;
     private ArrayList<EmployeeInterface> employeeList;
     private ArrayList<GoodsInterface> goodsList;
