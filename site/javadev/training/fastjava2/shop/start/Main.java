@@ -6,6 +6,7 @@ import site.javadev.training.fastjava2.shop.client.CommonVisitor;
 import site.javadev.training.fastjava2.shop.goods.Computer;
 import site.javadev.training.fastjava2.shop.goods.Subwoofer;
 import site.javadev.training.fastjava2.shop.goods.Televisor;
+import site.javadev.training.fastjava2.shop.interfaces.GoodsInterface;
 
 public class Main {
     public static void main(String[] args) {
@@ -20,6 +21,13 @@ public class Main {
 //        commonVisitor.buy(computer);
 //        commonVisitor.buy(computer2);
 //        commonVisitor.buy(subwoofer);
+
+        GoodsInterface goods = new Televisor("Samsung");
+
+        //Televisor t = (Televisor)goods; //первый вариант нисходящего преобразования
+        //t.selectChannel();              //первый вариант нисходящего преобразования
+
+        ((Televisor)goods).selectChannel(); //второй вариант нисходящего преобразования
 
         SberBank sberbank = new SberBank("Sberbank", "test desc");
         sberbank.checkInfo();
