@@ -3,6 +3,7 @@ package site.javadev.training.fastjava2.shop.goods;
 import site.javadev.training.fastjava2.shop.interfaces.ElectronicDeviceInterface;
 
 public class ElectronicDevice extends AbstractGoods implements ElectronicDeviceInterface {
+
     public ElectronicDevice() {
     }
 
@@ -10,14 +11,20 @@ public class ElectronicDevice extends AbstractGoods implements ElectronicDeviceI
         super(name);
     }
 
-    @Override
-    public void on(){
-        //общая реализация
 
+    public ElectronicDevice(double price, boolean hasGuarantee, String name, String company) {
+        super(price, hasGuarantee, name , company);
     }
-    @Override
-    public void off(){
-        //общая реализация
 
+
+
+    @Override
+    public void on() {
+        // общая реализация
+    }
+
+    @Override
+    public void off() {
+        // общая реализация
     }
 }

@@ -2,12 +2,25 @@ package site.javadev.training.fastjava2.shop.goods;
 
 public class Televisor extends ElectronicDevice{
 
+    public Televisor(double price, boolean hasGuarantee, String name, String company) {
+        super(price, hasGuarantee, name, company);
+    }
+
     public Televisor(String name) {
         super(name);
     }
 
     public void selectChannel(){
-        System.out.println("select channel");
 
     }
+
+    public void selectChannel(String name){
+
+    }
+
+    public void selectChannel(int number){
+
+    }
+
+
 }

@@ -5,5 +5,6 @@ public interface GoodsInterface {
     boolean hasGuarantee();
     String getName();
     DepartmentInterface getDepartment();
+    void setDepartment(DepartmentInterface department);
     String getCompany();
 }
